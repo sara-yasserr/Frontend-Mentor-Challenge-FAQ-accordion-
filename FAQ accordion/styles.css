@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: hsl(275, 100%, 97%);
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+} */
+
+h1{
+    font-size: xx-large;
+    color: hsl(292, 42%, 14%);
+    font-family: "Work Sans", serif;
+    font-weight: 700;
+}
+
+
+p{
+    color: hsl(292, 42%, 14%);
+    width: 100%;
+    font-size:medium;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+p:hover{
+    color:  hsl(293, 59%, 50%);
+}
+.topimg{
+    background-image: url("./background-pattern-desktop.svg");
+    background-size:cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 40%;
+}
+
+.maincard{
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+   z-index: 100;
+   background-color: hsl(0, 0%, 100%);
+   /* width: 40%; */
+   /* height:80%; */
+   border-radius: 20px;
+}
+
+
+.shadowcard{
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+   box-shadow: 
+        -5px 5px 10px -5px hsl(290, 14%, 91%),
+         5px 5px 10px -5px hsl(290, 14%, 91%), 
+         0px 10px 10px -5px hsl(290, 14%, 91%); 
+}
+
+.topcard{
+    display: flex;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    img{
+    margin-right: 20px;
+    width: 27px;
+    }
+}
+
+.bodycard{
+    height: 70%;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    
+}
+
+span{
+    opacity: .7;
+    font-size: medium;
+    width: 100%;
+    display: none;
+    font-weight: 400;
+}
+.spanvisible{
+    display: block;
+}
+
+hr{
+    color: lavender;
+    background-color: lavender;
+    opacity: .4;
+    border-radius: 10px;
+    height: 1.3px;
+    width: 100%;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+img{
+        cursor: pointer;
+    
+}
+.minus{
+    width: 23px;
+}
+
